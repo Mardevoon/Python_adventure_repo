@@ -1,0 +1,5 @@
+print('\033[31m *****Hora dos testes!***** \033[m')
+nome = input('Qual é o seu nome? ')
+idade = input('Qual é a sua idade? ')
+peso = input('Quanto você pesa? ')
+print(f"\033[36m Senhor(a) {nome}. Você pesa {peso} e tem {idade} anos. \033[m")
